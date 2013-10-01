@@ -1,0 +1,13 @@
+/*--------01背包---------*/
+
+测试数据：
+重量：0,10,20,32,23,45,21,1,2,31,50
+价值：0,30,69,47,34,45,32,12,23,95,57
+
+结果：
+select   9, weight :  31, value :  95
+select   8, weight :   2, value :  23
+select   7, weight :   1, value :  12
+select   3, weight :  32, value :  47
+select   2, weight :  20, value :  69
+select   1, weight :  10, value :  30
