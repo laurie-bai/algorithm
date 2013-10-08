@@ -14,4 +14,7 @@ typedef struct {
 	Node *root;
 } Tree;
 
+Node *get_binary_tree(char *, char *, int);
+void post_order_traverse(Node *);
+
 #endif
